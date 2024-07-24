@@ -176,7 +176,7 @@ function add_validator() {
 
 read -p "请输入您的钱包名称: " wallet_name
 read -p "请输入您想设置的验证者的名字: " validator_name
-read -p "请输入您的验证者详情（例如'吊毛资本'）: " details
+read -p "请输入您的验证者详情（例如'moncici_is_girl'）: " details
 
 
 0gchaind tx staking create-validator \
